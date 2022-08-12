@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" href="images/kayak_logo.PNG"/>
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css"/>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Responsive navigation bar -->
@@ -25,110 +25,93 @@
     
     <!-- Page content -->
     <div class="content">
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Question 1: Why am I wearing a bouyancy aid?</h2>
+      <div class="qcard">
+        <h2 class="card-title">Question 1: Why am I wearing a bouyancy aid?</h2>
           <ul class="choices">
             <li><label><input type="radio" name="question0" value="1"><span>to keep myself afloat in case of a capsize</span></label></li>
             <li><label><input type="radio" name="question0" value="2"><span>to keep myself warm because it is cold</span></label></li>
             <li><label><input type="radio" name="question0" value="3"><span>as a shield in case somebody whacks me with a paddle</span></label></li>
           </ul>
         </div>
+    
+      <div class="qcard">
+        <h2 class="card-title">Question 2: What personal clothing should I wear?</h2>
+        <ul class="choices">
+          <li><label><input type="radio" name="question1" value="1"><span>jeans, a hoodie and hiking boots</span></label></li>
+          <li><label><input type="radio" name="question1" value="2"><span>a wetsuit</span></label></li>
+          <li><label><input type="radio" name="question1" value="3"><span>neoprene trousers, wetshoes and a rash vest</label></li>
+        </ul>
       </div>
     
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Question 2: What personal clothing should I wear?</h2>
-          <ul class="choices">
-            <li><label><input type="radio" name="question1" value="1"><span>jeans, a hoodie and hiking boots</span></label></li>
-            <li><label><input type="radio" name="question1" value="2"><span>a wetsuit</span></label></li>
-            <li><label><input type="radio" name="question1" value="3"><span>neoprene trousers, wetshoes and a rash vest</label></li>
-          </ul>
-        </div>
+      <div class="qcard">
+        <h2 class="card-title">Question 3: What type of craft will I be using?</h2>
+        <ul class="choices">
+          <li><label><input type="radio" name="question2" value="1"><span>a barrel, a kayak and a cardboard box</span></label></li>
+          <li><label><input type="radio" name="question2" value="2"><span>a rigid inflatable boat, a barrel and a canoe</span></label></li>
+          <li><label><input type="radio" name="question2" value="3"><span>a stand-up paddleboard, a kayak and a canoe</span></label></li>
+        </ul>
       </div>
     
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Question 3: What type of craft will I be using?</h2>
-          <ul class="choices">
-            <li><label><input type="radio" name="question2" value="1"><span>a barrel, a kayak and a cardboard box</span></label></li>
-            <li><label><input type="radio" name="question2" value="2"><span>a rigid inflatable boat, a barrel and a canoe</span></label></li>
-            <li><label><input type="radio" name="question2" value="3"><span>a stand-up paddleboard, a kayak and a canoe</span></label></li>
-          </ul>
-        </div>
+      <div class="qcard">
+        <h2 class="card-title">Question 4: How can I tell if my craft is suitable to me?</h2>
+        <ul class="choices">
+          <li><label><input type="radio" name="question3" value="1"><span>I have the right amount of footspace, the seat is the right size and the leash (SUP) is the correct length. My craft is comfortable is sit in/stand on.</span></label></li>
+          <li><label><input type="radio" name="question3" value="2"><span>I have no seat in my craft.</span></label></li>
+          <li><label><input type="radio" name="question3" value="3"><span>I do not fit in my craft.</span></label></li>
+        </ul>
       </div>
     
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Question 4: How can I tell if my craft is suitable to me?</h2>
-          <ul class="choices">
-            <li><label><input type="radio" name="question3" value="1"><span>I have the right amount of footspace, the seat is the right size and the leash (SUP) is the correct length. My craft is comfortable is sit in/stand on.</span></label></li>
-            <li><label><input type="radio" name="question3" value="2"><span>I have no seat in my craft.</span></label></li>
-            <li><label><input type="radio" name="question3" value="3"><span>I do not fit in my craft.</span></label></li>
-          </ul>
-        </div>
+      <div class="qcard">
+        <h2 class="card-title">Question 5: What style of paddle is for my craft?</h2>
+        <ul class="choices">
+          <li><label><input type="radio" name="question4" value="1"><span>Fixed double blade for a kayak, fixed single blade for a canoe and extendable double blade for SUP.</span></label></li>
+          <li><label><input type="radio" name="question4" value="2"><span>Fixed double blade for canoe, fixed single blade for SUP and extendable single blade for SUP.</span></label></li>
+          <li><label><input type="radio" name="question4" value="3"><span>Fixed double blade for a kayak, fixed single blade for a canoe and extendable single blade for SUP.</span></label></li>
+        </ul>
       </div>
     
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Question 5: What style of paddle is for my craft?</h2>
-          <ul class="choices">
-            <li><label><input type="radio" name="question4" value="1"><span>Fixed double blade for a kayak, fixed single blade for a canoe and extendable double blade for SUP.</span></label></li>
-            <li><label><input type="radio" name="question4" value="2"><span>Fixed double blade for canoe, fixed single blade for SUP and extendable single blade for SUP.</span></label></li>
-            <li><label><input type="radio" name="question4" value="3"><span>Fixed double blade for a kayak, fixed single blade for a canoe and extendable single blade for SUP.</span></label></li>
-          </ul>
-        </div>
+      <div class="qcard">
+        <h2 class="card-title">Question 6: What is the best way to lift my craft?</h2>
+        <ul class="choices">
+          <li><label><input type="radio" name="question5" value="1"><span>with the help of another person, one of you at each end</span></label></li>
+          <li><label><input type="radio" name="question5" value="2"><span>don't lift it, drag it!</span></label></li>
+          <li><label><input type="radio" name="question5" value="3"><span>on your shoulder</span></label></li>
+        </ul>
       </div>
     
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Question 6: What is the best way to lift my craft?</h2>
-          <ul class="choices">
-            <li><label><input type="radio" name="question5" value="1"><span>with the help of another person, one of you at each end</span></label></li>
-            <li><label><input type="radio" name="question5" value="2"><span>don't lift it, drag it!</span></label></li>
-            <li><label><input type="radio" name="question5" value="3"><span>on your shoulder</span></label></li>
-          </ul>
-        </div>
+      <div class="qcard">
+        <h2 class="card-title">Question 7: How do I get into my craft?</h2>
+        <ul class="choices">
+          <li><label><input type="radio" name="question6" value="1">just hope for the best and jump in/on<span></span></label></li>
+          <li><label><input type="radio" name="question6" value="2"><span>stay low and hold onto the bank as you get in</span></label></li>
+          <li><label><input type="radio" name="question6" value="3"><span>put it on the bank, get in and slide</span></label></li>
+        </ul>
       </div>
     
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Question 7: How do I get into my craft?</h2>
-          <ul class="choices">
-            <li><label><input type="radio" name="question6" value="1">just hope for the best and jump in/on<span></span></label></li>
-            <li><label><input type="radio" name="question6" value="2"><span>stay low and hold onto the bank as you get in</span></label></li>
-            <li><label><input type="radio" name="question6" value="3"><span>put it on the bank, get in and slide</span></label></li>
-          </ul>
-        </div>
+      <div class="qcard">
+        <h2 class="card-title">Question 8: How do I minimise the damage to the bank?</h2>
+        <ul class="choices">
+          <li><label><input type="radio" name="question7" value="1"><span>lift your craft, don't drag it</span></label></li>
+          <li><label><input type="radio" name="question7" value="2"><span>the bank grows back, just seal launch</span></label></li>
+          <li><label><input type="radio" name="question7" value="3"><span>the bank is concrete, it doesn't matter</span></label></li>
+        </ul>
       </div>
     
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Question 8: How do I minimise the damage to the bank?</h2>
-          <ul class="choices">
-            <li><label><input type="radio" name="question7" value="1"><span>lift your craft, don't drag it</span></label></li>
-            <li><label><input type="radio" name="question7" value="2"><span>the bank grows back, just seal launch</span></label></li>
-            <li><label><input type="radio" name="question7" value="3"><span>the bank is concrete, it doesn't matter</span></label></li>
-          </ul>
-        </div>
+      <div class="qcard">
+        <h2 class="card-title">Question 9: What do I need to be aware of on the water?</h2>
+        <ul class="choices">
+          <li><label><input type="radio" name="question8" value="1"><span>cyclists</span></label></li>
+          <li><label><input type="radio" name="question8" value="2"><span>swans</span></label></li>
+          <li><label><input type="radio" name="question8" value="3"><span>other waterway users, wildlife and obstructions</span></label></li>
+        </ul>
       </div>
     
-      <div class="card h-100">
-        <div class="card-body">
-          <h2 class="card-title">Question 9: What do I need to be aware of on the water?</h2>
-          <ul class="choices">
-            <li><label><input type="radio" name="question8" value="1"><span>cyclists</span></label></li>
-            <li><label><input type="radio" name="question8" value="2"><span>swans</span></label></li>
-            <li><label><input type="radio" name="question8" value="3"><span>other waterway users, wildlife and obstructions</span></label></li>
-          </ul>
-        </div>
-      </div>
-    
-    <div class="col-md-12 mb-5">
-      <a class="btn btn-primary return-score" onclick="returnScore()">Calculate Score!</a>
+      <p><br><br></p>
+      <a class="btn btn-linking return-score" onclick="returnScore()">Calculate Score!</a>
       <span id="myresults" class="results-box">Your score is: <span id="score"></span></span>
+      <p><br><br></p>
     </div>
-    </div>
+    
     <!-- Footer -->
     <div class="footer">
       <p>40491246 - George Brightman</p>
